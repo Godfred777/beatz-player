@@ -35,6 +35,7 @@ const config: Config = {
       primary: '#06062a',
       secondary: '#151538',
       tertiary: '#242445',
+      white: '#ffffff',
       accent: {
         DEFAULT: '#7f1cfc',
         hover: '#6519c6',
