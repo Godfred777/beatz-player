@@ -5,3 +5,31 @@
 body {
   @apply bg-primary font-montserrat text-white;
 }
+
+.pretitle {
+  @apply font-alex_brush text-[42px] text-accent leading-none;
+}
+
+.h2 {
+  @apply text-[32px] xl:text-[38px] font-semibold leading-tight 
+}
+
+.btn {
+  @apply w-full rounded-full justify-center cursor-pointer transition-all flex items-center font-medium;
+}
+
+.btn-sm {
+  @apply w-[146px] h-[50px];
+}
+
+.btn-accent {
+  @apply bg-accent text-white hover:bg-accent-hover;
+}
+
+.btn-white {
+  @apply bg-white text-primary hover:bg-white/80
+}
+
+.section {
+  @apply py-12 xl:py-24
+}
